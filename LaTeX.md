@@ -22,10 +22,10 @@ More frequent line breaks at semantic boundaries
 can make the paper feedback process a lot easier,
 and merges are less likely to conflict.
 * Good style:
-    ![Line breaks good](./assets/line_breaks_good.jpg)
-    ![Line breaks good](./assets/line_breaks_good2.jpg)
+    ![Line breaks good](assets/line_breaks_good.jpg?raw=true)
+    ![Line breaks good](assets/line_breaks_good_2.jpg?raw=true)
 * Bad style:
-    ![Line breaks bad](./assets/line_breaks_bad.jpg)
+    ![Line breaks bad](assets/line_breaks_bad.jpg?raw=true)
 Please see our paper submission below for an example.
 
 ### References
