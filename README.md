@@ -24,4 +24,4 @@ LaTeX is essential for writing publication ready drafts.
 You can find an introduction to LaTeX in our [LaTeX.md](LaTeX.md).
 
 ## VPN
-The network of server downstairs is suck. Then you can using proxy by this easy way [USE CLASH on GPU.md](USE CLASH on GPU.md)
+The network of server downstairs is suck. Then you can using proxy by this easy way [USE CLASH on GPU.md](USE CLASH on GPU.md).
