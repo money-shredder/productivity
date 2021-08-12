@@ -8,3 +8,7 @@ We use remote port forwarding to let GPU using our clash in windows/mac to Accel
 How to make sure your setting is right?
 - using "curl ifconfig.co" and it should return a ip that is your proxy's ip 
 - I baidu the ip and found it's located in Taiwan which is the location of my clash proxy.
+---
+PROBLEM
+- "proxy curl ifconfig.co":curl: (52) Empty reply from server 
+  - open "允许局域网链接" on your clash
