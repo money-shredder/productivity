@@ -1,7 +1,7 @@
 # Using local proxy on remote SSH server
 
 We use remote port forwarding to let GPU using our clash in windows/mac to Accelerate.
-- First we use "ssh -N  -R 7890:localhost:7890 usrname@yourGPUip -p your_ssh_port" to Establish a ssh channel.
+1. First we use "ssh -N  -R 7890:localhost:7890 usrname@yourGPUip -p your_ssh_port" to Establish a ssh channel.
   - Alternatively, you can set up a host config in `.ssh/config` (on Linux / macOS, path will be different on different windows SSH clients).
     ```
     Host <your_gpu_name>
@@ -13,9 +13,10 @@ We use remote port forwarding to let GPU using our clash in windows/mac to Accel
     ```bash
     ssh your_gpu_name
     ```
-- Secondly, we set `alias proxy='ALL_PROXT=localhost:7890 http_proxy=localhost:7890 https_proxy=localhost:7890'`
-  in docker's ~/.bashrc, and either `exec bash` or re-login to your server.
-- Then, you can use docker with your clash by adding `proxy` in front of your cmd.
+2. Add `alias proxy='ALL_PROXT=localhost:7890 http_proxy=localhost:7890 https_proxy=localhost:7890'`
+   to your `~/.bashrc`, and either run `exec bash` or re-login to your server.
+3. You can now use your local Clash as a proxy on the server, by adding `proxy` in front of your cmd.
+   E.g. `proxy git clone ...`.
 
 ## Testing your config
 
