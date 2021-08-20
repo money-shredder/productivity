@@ -22,7 +22,7 @@
 We use remote port forwarding to let GPU using our clash in windows/mac to Accelerate.
 1. First we use
    ```bash
-   ssh -N -R 7890:localhost:7890 usrname@yourGPUip -p your_ssh_port
+   ssh -N -R 7890:localhost:7890 <usrname>@<yourGPUip> -p <your_ssh_port>
    ```
    to Establish a ssh channel.
    
