@@ -6,6 +6,19 @@
 
 ## Ubuntu
 
+### Install common tools
+
+```zsh
+sudo apt install zsh tmux htop less colordiff python3.8 python3-pip
+```
+
+### Add sudo user
+
+```bash
+adduser <username>
+usermod -aG sudo <username>
+```
+
 ### ZSH error
 
 Error upon login:
@@ -37,9 +50,3 @@ Fix:
 sudo apt install locales && locale-gen "en_US.UTF-8"
 ```
 
-### Add sudo user
-
-```bash
-adduser <username>
-usermod -aG sudo <username>
-```
