@@ -6,7 +6,7 @@
 
 申请人有相关的资源需求，包括GPU卡、实验平台（K8s、Spark、Hadoop、Kubeflow...）、常规CPU服务器等，
 请发送需求邮件（说明以下内容：需求资源配置，申请数量、使用时间、主要用途）
-给林彦颖 (yy.lin1@siat.ac.c)，并抄送各自导师和张锦霞（zhangjx@siat.ac.cn），
+给林彦颖 (yy.lin1@siat.ac.cn)，并抄送各自导师和张锦霞（zhangjx@siat.ac.cn），
 导师同意之后会给大家分配相关的资源权限。
 
 ### 使用说明
