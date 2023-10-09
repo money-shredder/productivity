@@ -1,6 +1,6 @@
-以下内容由ChatGPT生成（prompt: 写一个简短的git学习教程）。
-
 ## Git 学习教程
+
+以下内容由ChatGPT生成（prompt: 写一个简短的git学习教程）。
 
 ### 1. Git 是什么？
 
@@ -105,3 +105,40 @@ git push 远程仓库地址 分支名
 ### 结束语
 
 这是一个简短的 Git 学习教程，可以让你开始使用 Git 进行基本的版本控制。如果你想深入了解 Git，建议查阅更详细的教程和资源。祝你学习愉快！
+
+## 建议配置
+
+在用户目录下编写如下`.gitconfig`文件：
+```ini
+[user]
+    name = ...
+    email = ...
+[alias]  # 常用的缩写，可以用如 git br 替代 git branch
+    br = branch
+    cm = commit
+    co = checkout
+    d = diff
+    ds = diff --staged
+    rb = rebase
+    rs = restore
+    mg = merge
+    s = status --short --branch --column
+    sm = submodule
+    sw = swich
+    st = stash
+    un = reset
+    lg = log --graph --date-order --abbrev-commit --date=relative
+    unstage = reset
+    unstage-all = reset --soft HEAD^
+[core]
+    autocrlf = input
+[push]
+    default = matching
+[url "https://github.com/"]
+    insteadOf = git://github.com/
+    insteadOf = git@github.com:
+    insteadOf = gh:
+    insteadOf = github:
+[init]
+    defaultBranch = main
+```
