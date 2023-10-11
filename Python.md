@@ -52,3 +52,29 @@ custom_channels:
   * Tutorial: https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
 * Weights and Biases
   * https://wandb.ai
+
+## Debugging
+1. CLI下`pip install debugpy`安装debugpy，并配置`.bashrc`:
+```shell
+alias pydb='python -m debugpy --listen 5678 --wait-for-client'
+```
+然后使用`exec bash`让bash重新读取`.bashrc`配置。
+2. VS Code 中在项目里添加`.vscode/launch.json`文件：
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Attach",
+            "type": "python",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678,
+            }
+        }
+	]
+}
+```
+3. 使用`pydb ...`替代`python ...`执行你的代码。
+4. 在VSCode Debugger界面下选择`Python: Attach`，按绿色开始箭头执行debug（可用快捷键，Mac = Cmd + Shift + R，Win = Ctrl + Shift + R）。
