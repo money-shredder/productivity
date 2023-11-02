@@ -160,3 +160,11 @@ git push 远程仓库地址 分支名
 [init]
     defaultBranch = main
 ```
+
+用户目录下`~/.bashrc`可以用简称替代某些常用git指令，如：
+```bash
+alias g=git
+alias gs="git status --short --branch --column"
+alias gds="git diff --staged"
+```
+等等。
