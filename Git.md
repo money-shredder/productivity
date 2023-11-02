@@ -102,15 +102,31 @@ git push 远程仓库地址 分支名
 - `git reset`: 撤销暂存的文件
 - `git rm`: 删除文件并将更改提交到仓库
 
+
+### 13. 常用项目文件
+
+- `.gitignore`
+- `.gitattribute`
+
+
 ### 结束语
 
 这是一个简短的 Git 学习教程，可以让你开始使用 Git 进行基本的版本控制。如果你想深入了解 Git，建议查阅更详细的教程和资源。祝你学习愉快！
+
+
+## 进阶教程
+
+- `git submodule`
+- `git lfs`
+- `git stash`
+- `git rebase`
+
 
 ## 建议配置
 
 在用户目录下编写如下`.gitconfig`文件：
 ```ini
-[user]
+[user]  # 填入你的名字和邮箱
     name = ...
     email = ...
 [alias]  # 常用的缩写，可以用如 git br 替代 git branch
@@ -122,11 +138,13 @@ git push 远程仓库地址 分支名
     rb = rebase
     rs = restore
     mg = merge
+    # 精简状态
     s = status --short --branch --column
     sm = submodule
     sw = swich
     st = stash
     un = reset
+    # 每行一个commit，带颜色高亮，带作者和日期
     lg = log --graph --date-order --abbrev-commit --date=relative
     unstage = reset
     unstage-all = reset --soft HEAD^
