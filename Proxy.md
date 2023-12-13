@@ -27,7 +27,7 @@
    ```
 2. 在服务器`~/.bashrc`中加入以下内容：
    ```bash
-   alias proxy='ALL_PROXY=localhost:7890 http_proxy=localhost:7890 https_proxy=localhost:7890'
+   alias proxy='all_proxy=socks5://localhost:7890 http_proxy=http://localhost:7890 https_proxy=http://localhost:7890'
    ```
    然后执行`exec bash`重载shell，
    或者重新登录服务器。
