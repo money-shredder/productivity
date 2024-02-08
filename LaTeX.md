@@ -38,11 +38,7 @@ Please see our paper submission below for an example.
 ![Line breaks good](assets/WechatIMG1049.jpeg?raw=true)
 ![Line breaks good](assets/WechatIMG1050.jpeg?raw=true)
 
-#### Bad style:
-![Line breaks bad](assets/WechatIMG1051.png?raw=true)
-
-
 ## Example source code
 
 See our paper submission for an example:
-* [paper-federated](https://www.github.com/money-shredder/paper-federated)
+* [paper-federated](https://www.github.com/money-shredder/paper-federated) (org members only)
