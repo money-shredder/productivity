@@ -22,6 +22,3 @@ See [Command_Line.md](Command_Line.md).
 
 LaTeX is essential for writing publication ready drafts.
 You can find an introduction to LaTeX in our [LaTeX.md](LaTeX.md).
-
-## VPN
-The network of server downstairs is suck. Then you can using proxy by this easy way in [GPU_servers.md](GPU_servers.md).
