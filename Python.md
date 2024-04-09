@@ -32,7 +32,7 @@ custom_channels:
 
 ## PyTorch 
 
-常用安装：`conda install debugpy ipython pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia`
+常用安装：`conda install debugpy ipython pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia`
 
 ### Resources
 
