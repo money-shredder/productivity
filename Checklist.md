@@ -1,0 +1,111 @@
+# 基础知识与业务入门Checklist
+
+- [ ] [CS自学指南](https://csdiy.wiki)
+- 基本生产力工具：
+    - [ ] [计算机教育中缺失的一课](https://missingsemester.afnom.net/2023/)
+        - :luc_terminal_square:命令行：
+            - [ ] `echo, alias, which, man`
+            - [ ] `mkdir, cd / autojump, ls, rm, mv, ln, tar`
+            - [ ] `zsh / xonsh, curl, |, rsync / scp`
+            - [ ] `ssh, git, tmux`
+            - [ ] `grep, jq, awk, vim / nvim`
+    - [ ] [:luc_git_pull_request:学习使用git](https://git-scm.com/book/zh/v2/起步-关于版本控制)
+        - [ ] config / aliases
+        - [ ] status / log
+        - [ ] add / reset
+        - [ ] commit / commit —amend
+        - [ ] diff
+        - [ ] checkout / branch
+        - [ ] push / pull
+        - [ ] merge / rebase
+        - [ ] submodule init / update
+        - [ ] lfs
+- [ ] [学习使用vscode](https://code.visualstudio.com/docs)
+    - [ ] 配置remote-ssh，直连服务器
+    - [ ] 插件：Python全家桶，LaTeX Workshop
+- [ ] 学习python
+    - [ ] [Python入门](https://docs.python.org/zh-cn/3/tutorial/index.html)
+        - [ ] [遵循PEP8编码规范](https://peps.python.org/pep-0008/)
+    - [ ] vscode中使用pylint检查错误
+    - [ ] 遵循编码和项目规范，[参考范例](https://github.com/admk/sembr)
+- [ ] 学习机器学习相关基础知识：
+    - [ ] [The Modern Algorithmic Toolbox (CS168), Spring 2024](https://web.stanford.edu/class/cs168/index.html)
+- [ ] 学习深度学习相关知识和框架
+    - [ ] 基础知识
+        - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+        - [ ] 模型
+            - [ ] Convolutional Neural Networks
+            - [ ] Residual Networks
+            - [ ] Transformers
+                - [ ] 代码讲解：[The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
+                - [ ] 各类改进方法讲解：[The Transformer Family Version 2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
+            - [ ] Diffusion Models
+                - [ ] 理论讲解：[Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)
+            - [ ] Graph Neural Networks
+        - [ ] 训练算法
+            - [ ] 随机初始化
+            - [ ] 损失函数 / 正则化
+            - [ ] 度量（Metrics）：KL散度
+            - [ ] 数据增强
+            - [ ] 梯度求解
+            - [ ] 优化器：SGD / AdamW
+            - [ ] 模型压缩：剪枝 / 量化
+            - [ ] …
+    - [ ] Frameworks
+        - [ ] Python + Conda + PyTorch 环境配置
+        - [ ] [PyTorch](https://pytorch.org) [入门](https://pytorch.org/tutorials/)
+        - [ ] Hugging Face 全家桶
+            - [ ] [Datasets](https://huggingface.co/docs/datasets/index)
+            - [ ] [Evaluate](https://huggingface.co/docs/evaluate/index)
+            - [ ] [Transformers](https://huggingface.co/docs/transformers/index)
+            - [ ] [Diffusers](https://huggingface.co/docs/diffusers/index)
+            - [ ] [PEFT](https://huggingface.co/docs/peft/index)
+        - [ ] 记录实验数据 [Weights & Biases](https://wandb.ai)
+    - [ ] 实操经验
+        - [ ] [How to avoid machine learning pitfalls: a guide for academic researchers](https://arxiv.org/abs/2108.02497
+        - [ ] [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+    - [ ] 阅读
+        - [ ] [Lil'Log](https://lilianweng.github.io)
+        - [ ] [The Gradient](https://thegradient.pub)
+        - [ ] [Home - colah's blog](https://colah.github.io)
+        - [ ] [inFERENCe - a machine learning blog](https://www.inference.vc)
+        - [ ] [Off the convex path](https://www.offconvex.org)
+        - [ ] [Andrej Karpathy blog](http://karpathy.github.io)
+- :luc_book:通用参考书/工具书：
+    - 线性代数：
+        - 关于矩阵的知识: [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+        - 关于矩阵的一切: [The Matrix Reference Manual](http://www.ee.ic.ac.uk/hp/staff/dmb/matrix/intro.html)
+        - 在线矩阵微分工具：[Matrix Calculus](https://www.matrixcalculus.org/)
+- [ ] 学习写论文
+    - 写作指南：
+        - [ ] [Writing More Successful Machine Learning Research Papers by Prof. Marc Aubreville](https://towardsdatascience.com/writing-more-successful-machine-learning-research-papers-39863ca9ea90)
+        - [ ] [Crafting Papers on Machine Learning](https://icml.cc/Conferences/2002/craft.html)
+        - [ ] [How To Write A Research Paper In Machine Learning](https://grigorisg9gr.github.io/machine%20learning/research%20paper/how-to-write-a-research-paper-in-machine-learning/)
+    - [ ] 遵循编码和项目规范，
+        - [论文模板 & 参考范例](https://github.com/money-shredder/paper-template)
+        * [Guide to the LaTeX typesetting system](https://en.wikibooks.org/wiki/LaTeX)
+        * It is recommended that our papers
+            follow [Semantic Line Breaks](https://sembr.org).
+            More frequent line breaks at semantic boundaries
+            can make the diffs clearer,
+            the paper feedback process a lot smoother,
+            and merges less likely to conflict.
+    * 工具：
+        - Automatic semantic linebreaker: [:luc_github:admk/sembr](https://github.com/admk/sembr)
+        - Table generators:
+            - https://www.tablesgenerator.com
+            - https://www.latex-tables.com
+        - Quick math references:
+            - [LaTex Symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
+            - [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+- 其他生产力工具：
+    - 笔记：[Obsidian](https://obsidian.md)
+    - 画图：
+        - 静态图：[:luc_figma:Figma](https://figma.com)
+        - 动画：[Manim](https://docs.manim.community/en/stable/index.html)
+    - AI工具：
+        - [ChatGPT](https://chat.openai.com)
+        - [ChatGLM](https://chatglm.cn)
+        - [GroqChat](https://groq.com)
+        - Slack群组@ChatGPT
+    - JSON格式化：[FracturedJson Web Formatter](https://j-brooke.github.io/FracturedJson/)
